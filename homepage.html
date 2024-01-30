@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Netflix</title>
+    <link rel="stylesheet" href="homepage.css">
 </head>
 
-<!--Main goal is to find a way to put the pictures and trialers in a database 
-so I can randomize everytime you reload the page and make it easier in general.
-Ill also try to make a detail page but only if this is done. I wont start on it until 
+<!-- Ill try to make a detail page but only if this is done. I wont start on it until 
 I made the bare minimum.-->
 
 <body>
     <!--Navigation-->
+    <div id="openingtrailer">
+        <video autoplay controls>
+            <source src="Trailers/ArcaneTrailer.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
     <div id="navigation">
-        <!--Logo-->
-        <!--Homepage-->
-        <!--Series-->
-        <!--Films-->
-        <!--Pfp-->
+        <img src="images/Logonetflix.png">
+        <div id="links">
+            <a href="homepage.html">Homepage</a>
+            <a href="series.html">Series</a>
+            <a href="films.html">Films</a>
+            <!--Pfp-->
+        </div>
+
         <!--Becomes Solid by scrolling down-->
     </div>
     <!--Top Trailer-->
@@ -27,7 +37,7 @@ I made the bare minimum.-->
         <!--Description-->
         <!--Play button-->
         <!--Info Button-->
-        <!--Trailer plays when on screen-->
+
     </div>
     <!--Movie line-->
     <div id="movies">
@@ -47,4 +57,5 @@ I made the bare minimum.-->
         <div id="footer"></div>
     </div>
 </body>
+
 </html>
